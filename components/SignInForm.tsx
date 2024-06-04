@@ -108,7 +108,7 @@ const SignInForm = () => {
           </button>
         </div>
         <div className="text-sm pt-6 text-gray-500">
-          Don't have an Account ?{" "}
+          Don not have an Account ?{" "}
           <Link className="text-blue-500 text-base" href={"/auth/signup"}>
             Sign Up
           </Link>
