@@ -3,7 +3,7 @@
 ## About Project
 - This link ( https://xerocodee-assignment-beta.vercel.app/ ) will forward to website landing page
 - Project uses Material UI library for design, Tailwind CSS for design
-- Uses Appwrite for backend, and have functionality of Google Login and GitHub Login
+- Uses Appwrite for backend, and have functionality of Google Login and GitHub Login(may not be working because appwrite does not set the vercel.app as custom domain)
 - Use MUI for Sign UP page and Simple Tailwind CSS for Sign IN Page
 - Project also logout functionality
 - From XeroCode Dropdown menu(on Landing Page) you can ACCESS all pages(make only for Assignment easy)
