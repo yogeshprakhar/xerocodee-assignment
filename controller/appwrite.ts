@@ -54,7 +54,10 @@ export const signIn = async (email: string, password: string) => {
 
 export const handleLoginGoogle = async () => {
   try {
-    account.createOAuth2Session(OAuthProvider.Google, "http://localhost:3000/");
+    account.createOAuth2Session(
+      OAuthProvider.Google,
+      "https://xerocodee-assignment.netlify.app/"
+    );
   } catch (error) {
     console.log(error);
   }
@@ -62,7 +65,10 @@ export const handleLoginGoogle = async () => {
 
 export const handleLoginGithub = async () => {
   try {
-    account.createOAuth2Session(OAuthProvider.Github, "http://localhost:3000/");
+    account.createOAuth2Session(
+      OAuthProvider.Github,
+      "https://xerocodee-assignment.netlify.app/"
+    );
   } catch (error) {
     console.log(error);
   }
