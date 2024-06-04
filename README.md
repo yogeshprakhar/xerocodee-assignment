@@ -16,7 +16,7 @@
 - Project does NOT use env file (since this is assignment , for easy access)
 
 ## Cons in Project && Not Completed TASK of Assignment
-- didn't configure Babel Configuration for build process, since next.js already use babel (so could nbot understand the task OR could not completed the task)
+- didn't configure Babel Configuration for build process, since next.js already use babel (so could not understand the task OR could not completed the task)
 - at landing page card background color does not sync with images color { reason: passing color value as props does not changing the card background ui(tried chatgpt solution too, did not worked)  }
 
 ## Screenshots
