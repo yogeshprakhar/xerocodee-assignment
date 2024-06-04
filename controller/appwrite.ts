@@ -56,7 +56,7 @@ export const handleLoginGoogle = async () => {
   try {
     account.createOAuth2Session(
       OAuthProvider.Google,
-      "https://xerocodee-assignment.netlify.app/"
+      "https://xerocodee-assignment-beta.vercel.app/"
     );
   } catch (error) {
     console.log(error);
@@ -67,7 +67,7 @@ export const handleLoginGithub = async () => {
   try {
     account.createOAuth2Session(
       OAuthProvider.Github,
-      "https://xerocodee-assignment.netlify.app/"
+      "https://xerocodee-assignment-beta.vercel.app/"
     );
   } catch (error) {
     console.log(error);

@@ -1,7 +1,7 @@
 ## XeroCodee Assignment
 
 ## About Project
-- This link ( https://xerocodee-assignment.netlify.app/ ) will forward to website landing page
+- This link ( https://xerocodee-assignment-beta.vercel.app/ ) will forward to website landing page
 - Project uses Material UI library for design, Tailwind CSS for design
 - Uses Appwrite for backend, and have functionality of Google Login and GitHub Login
 - Use MUI for Sign UP page and Simple Tailwind CSS for Sign IN Page
